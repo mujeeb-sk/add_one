@@ -1,0 +1,7 @@
+# Metadata Postgres reads when you run CREATE EXTENSION add_one.
+# Filename must be <extension_name>.control.
+
+comment = 'My first extension: adds one to an integer'
+default_version = '1.0'
+module_pathname = '$libdir/add_one'
+relocatable = true

@@ -1,0 +1,8 @@
+# PGXS build artifacts
+*.o
+*.dylib
+*.so
+.deps/
+
+# pg_regress output
+results/
